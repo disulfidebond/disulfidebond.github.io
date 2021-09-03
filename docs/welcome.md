@@ -1,4 +1,4 @@
-# Alignment Step
+# Alignment Steps
 To recap, the Lab Workflow has the following steps:
 
 * Alignment
