@@ -41,7 +41,7 @@ Before beginning, the following setup tasks need to be completed:
   * Copy the file `create_mutect2RunFile.sh` to your R working directory
 
 ## Create Fasta Index File
-To create a fasta index file, enter the name of the genome fasta file in the code chunk below, then run the code chunk.
+To create a fasta index file, enter the name of the genome fasta file in the code chunk below, then run the code chunk. Otherwise, enter the name of the genome fasta file for the `fastaFile` variable, and skip/comment out the other lines of code in this code chunk.
 
 ```{r}
 
@@ -52,7 +52,7 @@ print('Completed setup task: create fasta index')
 ```
 
 ## Create Fasta Sequence Dictionary
-To create a fasta sequence dictionary, run the next code chunk.
+To create a fasta sequence dictionary, run the next code chunk. Otherwise, skip this code chunk,
 ```{r}
 createFastaDict = paste0('java -jar /data/workspace_home/workspace_shared/picard.jar CreateSequenceDictionary R=', fastaFile)
 ```
