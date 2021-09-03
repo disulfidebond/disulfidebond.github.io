@@ -1,6 +1,8 @@
 
 ---
+layout: page
 title: "Details for Lab Workflows"
+
 ---
 
 # Alignment Step
