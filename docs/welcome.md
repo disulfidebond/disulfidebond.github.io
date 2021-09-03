@@ -1,10 +1,3 @@
-
----
-layout: page
-title: "Details for Lab Workflows"
-
----
-
 # Alignment Step
 To recap, the Lab Workflow has the following steps:
 
