@@ -2,7 +2,7 @@ layout: page
 
 title: "Lab Workflows"
 
-permalink: /workflows/
+permalink: /welcome/
 
 Hello World from the Jane Churpek Lab!
 
