@@ -1,13 +1,10 @@
 # Alignment Steps
 To recap, the Lab Workflow has the following steps:
 
-[Breadcrumb link](https://disulfidebond.github.io/alignment)
-
-* Alignment
-
-* Preprocessing/QAQC
-
-* Variant Calling
+* [Alignment](https://disulfidebond.github.io/alignment)
+* [Preprocessing/QAQC](https://disulfidebond.github.io/preprocess)
+* [Variant Calling: HaplotypeCaller](https://disulfidebond.github.io/hc)
+* [Variant Calling: Mutect2](https://disulfidebond.github.io/mutect2)
 
 The final step, Variant Filtering and Classification, takes place strictly in VarSeq, and does not have any formal workflows in R, although supplementary R scripts have been created to help with analyzing the VarSeq data.
 
