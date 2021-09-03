@@ -338,7 +338,7 @@ Before beginning, the following setup tasks need to be completed:
   * Copy the file `create_hcRunFile.sh` to your R working directory
 
 ## Create Fasta Index File
-See [the section above]() if you need to create a Fasta Index File. Otherwise, simply enter the name of the fasta reference file for the variable `fastaFile`
+See [the section above](https://github.com/disulfidebond/disulfidebond.github.io/blob/gh-pages/docs/welcome.md#create-fasta-index-file) if you need to create a Fasta Index File. Otherwise, simply enter the name of the fasta reference file for the variable `fastaFile`
 
 ```{r}
 
@@ -347,7 +347,7 @@ fastaFile = c('')
 ```
 
 ## Create Fasta Sequence Dictionary
-See [the section above]() if you need to create a Fasta Sequence Dictionary, otherwise skip this code chunk.
+See [the section above](https://github.com/disulfidebond/disulfidebond.github.io/blob/gh-pages/docs/welcome.md#create-fasta-sequence-dictionary) if you need to create a Fasta Sequence Dictionary, otherwise skip this code chunk.
 
 ```{r}
 createFastaDict = paste0('java -jar /data/workspace_home/workspace_shared/picard.jar CreateSequenceDictionary R=', fastaFile)
