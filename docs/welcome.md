@@ -1,7 +1,7 @@
 # Alignment Steps
 To recap, the Lab Workflow has the following steps:
 
-[Breadcrumb link](https://github.com/disulfidebond/disulfidebond.github.io/blob/gh-pages/docs/alignment.md)
+[Breadcrumb link](https://disulfidebond.github.io/alignment)
 
 * Alignment
 
